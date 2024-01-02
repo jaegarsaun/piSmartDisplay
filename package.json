@@ -1,0 +1,19 @@
+{
+  "name": "piinterface",
+  "version": "1.0.0",
+  "description": "An app meant to be used on a raspberry pi with a 5inch touch screen display",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jaegar Saunders",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.3",
+    "node-fetch": "^3.3.2"
+  }
+}

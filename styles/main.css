@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=PT+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../images/white-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+}
+
+.btnCont{
+    height: 100%;
+}
+.btnContRight{
+    width: calc(35% - 5px);
+
+}
+.btnContLeft{
+    width: calc(65% - 5px);
+}
+.clock {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.599);
+    margin: auto;
+}
+.widget{
+    width: 100%;
+    height: 130px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.spotifyWidget{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.songCover{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.info{
+    width: calc(100% - 100px);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.songInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.songName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+.artistName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: rgb(185, 185, 185);
+    margin-bottom: 5px;
+}
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+.controllBtn{
+    background: none;
+    border: none;
+}
+.controllBtnImg{
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
